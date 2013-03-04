@@ -16,6 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+	vendor/samsung/apexqtmo/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -95,7 +96,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+	vendor/samsung/apexqtmo/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/samsung/apexqtmo/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libvdis.so:system/lib/libvdis.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -126,9 +129,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-	vendor/samsung/apexqtmo/proprietary/bin/hciattach:system/bin/hciattach \
-	vendor/samsung/apexqtmo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/samsung/apexqtmo/proprietary/bin/LE_dut:system/bin/LE_dut \
-	vendor/samsung/apexqtmo/proprietary/bin/qcom_audio_dut:system/bin/qcom_audio_dut \
-	vendor/samsung/apexqtmo/proprietary/bin/qcom_dut:system/bin/qcom_dut \
 	vendor/samsung/apexqtmo/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
