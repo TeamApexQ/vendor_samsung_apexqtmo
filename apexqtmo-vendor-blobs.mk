@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
