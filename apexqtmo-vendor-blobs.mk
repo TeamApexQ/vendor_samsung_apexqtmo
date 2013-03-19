@@ -132,3 +132,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/samsung/apexqtmo/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/samsung/apexqtmo/proprietary/bin/hci_qcomm_init \
+
