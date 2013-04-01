@@ -120,6 +120,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/apexqtmo/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/apexqtmo/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+	vendor/samsung/apexqtmo/proprietary/bin/btnvtool:system/bin/btnvtool \
+	vendor/samsung/apexqtmo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/samsung/apexqtmo/proprietary/bin/macloader:system/bin/macloader \
 	vendor/samsung/apexqtmo/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
