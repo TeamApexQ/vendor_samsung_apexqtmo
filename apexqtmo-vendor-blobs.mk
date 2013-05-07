@@ -22,9 +22,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/apexqtmo/proprietary/bin/thermald:system/bin/thermald \
-	vendor/samsung/apexqtmo/proprietary/etc/thermald-8064.conf:system/etc/thermald-8064.conf \
-	vendor/samsung/apexqtmo/proprietary/etc/thermald-8930.conf:system/etc/thermald-8930.conf \
-	vendor/samsung/apexqtmo/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
 	vendor/samsung/apexqtmo/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
