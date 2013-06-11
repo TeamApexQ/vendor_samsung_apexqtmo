@@ -89,8 +89,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libyamaha.so:system/lib/libyamaha.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
-	vendor/samsung/apexqtmo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/samsung/apexqtmo/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
@@ -124,6 +122,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b05 \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
