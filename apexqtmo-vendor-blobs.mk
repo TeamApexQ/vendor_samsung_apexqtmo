@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+	vendor/samsung/apexqtmo/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
@@ -122,7 +123,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b05 \
+	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
