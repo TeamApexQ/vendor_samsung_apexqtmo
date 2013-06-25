@@ -129,3 +129,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/samsung/apexqtmo/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+	vendor/samsung/apexqtmo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/samsung/apexqtmo/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
