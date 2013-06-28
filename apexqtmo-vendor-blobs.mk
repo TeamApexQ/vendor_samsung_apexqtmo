@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/samsung/apexqtmo/proprietary/lib/hw/nfc.MSM8260A.so:system/lib/hw/nfc.MSM8260A.so \
+	vendor/samsung/apexqtmo/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
 	vendor/samsung/apexqtmo/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/apexqtmo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libakmd.so:system/lib/libakmd.so \
