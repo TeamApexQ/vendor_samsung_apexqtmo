@@ -32,6 +32,8 @@ UMOUNTPERSIST=false
 if [ ! -d /persist ]; then
 	mkdir /persist
 	mount /dev/block/platform/msm_sdcc.1/by-name/persist /persist
+	mkdir /efs
+	mount /dev/block/platform/msm_sdcc.1/by-name/efs /efs
 	UMOUNTPERSIST=true
 fi
 
@@ -84,5 +86,8 @@ if ( $UMOUNTPERSIST ); then
 	# Symlink to target file from location expected by driver.
 	busybox ln -sf $DEST $SYM
 	umount /persist
+	umount /efs
+	rmdir /persist
+	rmdir /efs
 fi
 
