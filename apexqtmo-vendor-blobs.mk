@@ -134,3 +134,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
 	vendor/samsung/apexqtmo/proprietary/etc/thermald.conf:system/etc/thermald.conf \
 	vendor/samsung/apexqtmo/proprietary/etc/init.d/50bluetooth:system/etc/init.d/50bluetooth \
+	vendor/samsung/apexqtmo/proprietary/etc/init.d/60compass:system/etc/init.d/60compass \
