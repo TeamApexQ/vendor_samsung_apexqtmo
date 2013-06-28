@@ -85,8 +85,6 @@ if ( $UMOUNTPERSIST ); then
 	# If we aren't running from recovery, the link should
 	# already exist, plus, /system will be mounted RO.
 	# Symlink to target file from location expected by driver.
-	# Also, while we're at it, set the BT mac address prop.
-	echo "persist.service.bt.bt_macaddr=`cat /efs/bluetooth/bt_addr`" >> /system/build.prop
 	busybox ln -sf $DEST $SYM
 	umount /persist
 	umount /efs
