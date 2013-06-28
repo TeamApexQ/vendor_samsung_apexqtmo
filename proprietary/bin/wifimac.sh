@@ -77,8 +77,9 @@ B6_2=$B6a`echo $LOOKUP | cut -c$((IDX+1))`
 B6_3=$B6a`echo $LOOKUP | cut -c$((IDX+2))`
 B6_4=$B6a`echo $LOOKUP | cut -c$((IDX+3))`
 
-# The actual edit.
-hexdump -Cv $NVSOURCE | sed -e "s/^00000000  \(.*\)00 00 00 00 00 00  |/00000000  \1$B1 $B2 $B3 $B4 $B5 $B6_1  |/" | sed -e "s/^00000010  .*  |/00000010  $B1 $B2 $B3 $B4 $B5 $B6_2 $B1 $B2  $B3 $B4 $B5 $B6_3 $B1 $B2 $B3 $B4  |/" | sed -e "s/^00000020  00 03\(.*\)/00000020  $B5 $B6_4\1/" | hexdump -R > $DEST
+# The actual edit. Don't trust recovery's busybox to have "-R",
+# use freshly installed busybox on /system/xbin instead.
+/system/xbin/busybox hexdump -Cv $NVSOURCE | sed -e "s/^00000000  \(.*\)00 00 00 00 00 00  |/00000000  \1$B1 $B2 $B3 $B4 $B5 $B6_1  |/" | sed -e "s/^00000010  .*  |/00000010  $B1 $B2 $B3 $B4 $B5 $B6_2 $B1 $B2  $B3 $B4 $B5 $B6_3 $B1 $B2 $B3 $B4  |/" | sed -e "s/^00000020  00 03\(.*\)/00000020  $B5 $B6_4\1/" | /system/xbin/busybox hexdump -R > $DEST
 
 if ( $UMOUNTPERSIST ); then
 	# If we aren't running from recovery, the link should
