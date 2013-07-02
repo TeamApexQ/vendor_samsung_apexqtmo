@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+	vendor/samsung/apexqtmo/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
