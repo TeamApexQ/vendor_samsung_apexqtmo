@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/samsung/apexqtmo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/samsung/apexqtmo/proprietary/bin/macloader:system/bin/macloader \
-	vendor/samsung/apexqtmo/proprietary/bin/wifimac.sh:system/bin/wifimac.sh \
 	vendor/samsung/apexqtmo/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
 	vendor/samsung/apexqtmo/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
@@ -139,5 +138,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/samsung/apexqtmo/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
 	vendor/samsung/apexqtmo/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-	vendor/samsung/apexqtmo/proprietary/etc/init.d/50bluetooth:system/etc/init.d/50bluetooth \
-	vendor/samsung/apexqtmo/proprietary/etc/init.d/60compass:system/etc/init.d/60compass \
+
